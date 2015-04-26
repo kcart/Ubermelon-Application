@@ -2,6 +2,9 @@
  <html>
  <head>
      <title> <b> UberMelon <b> Job Application</title>
+
+     <link rel="stylesheet"  href="./afstyle.css">
+     
  </head>
  <body>
  <!-- Provide a large heading with some explanatory text -->
@@ -15,34 +18,35 @@
 <br><br>
  <!-- Request the first, and last name in separate fields -->
 
-<form>
+<form class ="userInfo">
     <label for="field-firstname">First Name:
     </label>
-    <input type ="text" name ="firstname" id="field-firstname">
+    <input class="formbox" type ="text" name ="firstname" id="field-firstname">
 
     <label for="field-lastname">Last Name:
     </label>
-    <input type="text" name="lastname" id="field-lastname">
+    <input class="formbox" type="text" name="lastname" id="field-lastname">
 
 
  <!-- Prompt for their salary requirement -->
     <br><br>
     <label for="field-salaryrequirement">Please enter your salary requirement in US dollars:</label>
-    <input type="text" name="salary" id="field-salaryrequirement">
+    <input class="formbox" type="text" name="salary" id="field-salaryrequirement">
     <br><br>
  <!-- Drop down menu of which job they are applying for: Software Engineer, QA Engineer, Product Manager -->
     Select the job you are applying for:
     <select name="jobtype">
-        <option value= "softwareengineer">Software Engineer</option>
-        <option value= "qaengineer">QA Engineer 
+        <option class="formbox" value= "softwareengineer">Software Engineer</option>
+        <option class="formbox" value= "qaengineer">QA Engineer 
         </option>
-        <option value= "productmanager">Product Manager</option>
+        <option class="formbox" value= "productmanager">Product Manager</option>
     </select>
 
 
  <!-- Have a submit button that submits to the form in the URL/application This should be a POST request -->
     <br><br>
-    <form action="/application">
+
+    <form class="formbox" action="/application">
     <input type= "submit"
     </form>
     
