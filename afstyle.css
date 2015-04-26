@@ -11,20 +11,19 @@ to stylize each one independently?)
 background-color: yellow;
 }
 
-
-
-
-
 /* Step two:
 Changes the text in the last name field to 
 be bolded with the font-weight property. */
-
-
-
-
-
-
-
+#lastNameSubmit {
+    font-weight: bold;
+}
 
 /*Step three:
  Draw borders around the instruction box-shadow: */
+#intro {
+    border-style: double;
+    border-width: medium;
+    text-align: center;
+    color: #3300FF;
+
+}
