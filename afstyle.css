@@ -1,0 +1,29 @@
+/* Step one:
+Changing the background color of
+all of the form input boxes and submit
+button to be yellow (can you do this
+for all input boxes without having 
+to stylize each one independently?)
+*/
+
+.formbox{
+
+background-color: yellow;
+}
+
+/* Step two:
+Changes the text in the last name field to 
+be bolded with the font-weight property. */
+#lastNameSubmit {
+    font-weight: bold;
+}
+
+/*Step three:
+ Draw borders around the instruction box-shadow: */
+#intro {
+    border-style: double;
+    border-width: medium;
+    text-align: center;
+    color: #3300FF;
+
+}
