@@ -46,7 +46,8 @@
  <!-- Have a submit button that submits to the form in the URL/application This should be a POST request -->
     <br><br>
 
-    <form class="formbox" action="/application">
+    <form class="formbox" action="/application" method="POST">
+    <input type="hidden" name="_method" value="PUT" />
     <input type= "submit"
     </form>
     
